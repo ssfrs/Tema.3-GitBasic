@@ -1,0 +1,134 @@
+body {
+  position: relative;
+  margin: auto;
+  padding: 40px;
+  width: 600px;
+  min-height: 120vh;
+  background-color: rgb(240, 240, 240);
+  font-family: "Nunito";
+}
+nav {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.login {
+  width: 500px;
+  margin: auto;
+  margin-top: 5vh;
+  background-color: white;
+  position: relative;
+  box-shadow: 0px 0px 4px 0px rgb(187, 187, 187);
+  border-radius: 4px;
+}
+div h1 {
+  text-align: center;
+  ba.ckground-color: grey;
+  m.argin-top: 20px;
+  padding: 30px 0px 20px 0px;
+  position: relative;
+}
+.date {
+  font-weight: bold;
+}
+.date::after {
+  content: " *";
+  color: red;
+}
+form {
+  padding: 5px 50px 65px 50px;
+}
+#password {
+  width: 100%;
+  border-radius: 7px;
+  padding: 10px 5px 10px 5px;
+  margin: 0px 0px -5px 0px;
+  border-color: lightgray;
+  box-shadow: 0px 0px 0px 2px lightgray;
+  border: none;
+}
+#username {
+  width: 100%;
+  border-radius: 7px;
+  padding: 10px 5px 10px 5px;
+  margin: 0px 0px 20px 0px;
+  border-color: lightgray;
+  box-shadow: 0px 0px 0px 2px lightgray;
+  border: none;
+}
+#password:hover,
+#username:hover {
+  background-color: rgb(250, 250, 250);
+}
+#password:focus,
+#username:focus {
+  background-color: rgb(250, 250, 250);
+  outline: none;
+}
+#password:focus + span {
+  font-size: 0px;
+  color: green;
+}
+input::placeholder {
+  font-style: italic;
+  opacity: 30%;
+}
+.icon span {
+  position: absolute;
+  margin: -23px 0px 0px 380px;
+  font-size: 20px;
+  color: rgb(145, 145, 145);
+}
+.rem {
+  text-decoration: underline;
+}
+#remember {
+  vertical-align: -2px;
+}
+
+button {
+  width: 100%;
+  padding: 15px 0px 15px 0px;
+  margin: 20px 0px 0px 0px;
+  border-radius: 7px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  background-color: rgb(142, 184, 84);
+}
+button:hover {
+  background-color: rgb(90, 129, 34);
+}
+/* ca sa nu am diferente de margini stanga si dreapta
+  aleg sa pastrez scroll barul de la formular pizza 
+  (varianta 2 fiind calcularea marginii din stanga)*/
+
+/* latime scroll bar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* sina de tren */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0 5px rgb(240, 240, 240);
+}
+
+/* tren */
+::-webkit-scrollbar-thumb {
+  background: darkorange;
+  border-radius: 2.5px;
+}
+
+/* tren hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(167, 75, 0);
+}
+i {
+  position: absolute;
+  margin: -47px 0px 0px 380px;
+  font-size: 20px;
+  color: rgb(145, 145, 145);
+}
+#password:focus + i {
+  font-size: 0px;
+}

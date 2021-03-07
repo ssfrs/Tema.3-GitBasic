@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="index.css" type="text/CSS" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="x/style.css" />
+    <title>TEMA 3 Formular Login cu CSS</title>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Log In</a> |
+      <a href="#pag2">Lista Produse</a> 
+      
+      
+    </nav>
+    <br />
+    <br />
+    <div class="login">
+      <h1>Login</h1>
+      <form action="bio.html" class="formular">
+        <label for="username" class="date">Username</label>
+        <br />
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="username"
+          required
+        />
+        <br />
+        <label for="password" class="date">Password</label>
+        <br />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="password"
+          required
+        />
+        <label for="password" class="icon">
+          <span class="icon-iconpassword" id="icon"></span
+        ></label>
+        <!--<i class="icon-iconpassword"></i>-->
+        <br />
+        <input type="checkbox" id="remember" />
+        <label for="remember" class="rem">Remember me</label>
+        <br />
+        <button type="submit">LOG IN</button>
+      </form>
+    </div>
+  </body>
+</html>
