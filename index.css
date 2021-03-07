@@ -21,10 +21,9 @@ nav {
   box-shadow: 0px 0px 4px 0px rgb(187, 187, 187);
   border-radius: 4px;
 }
-div h1 {
+main h1 {
   text-align: center;
-  ba.ckground-color: grey;
-  m.argin-top: 20px;
+
   padding: 30px 0px 20px 0px;
   position: relative;
 }
